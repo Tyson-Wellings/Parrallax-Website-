@@ -87,8 +87,27 @@ em{
 
 #Symptoms{
     left: 40px;
-    bottom: 0;
+    bottom: 100px;
     width: 40%;
     background-color: rgba(5, 23, 21, 0.8);
     color: white;
+}
+
+#Masks{
+    position: relative;
+}
+
+#Masks img{
+    position: relative;
+    z-index: 1;
+}
+
+#MaskCopy{
+    z-index: 2;
+    position: absolute;
+    padding: 50px;
+    bottom: 100px;
+    left: 40px;
+    width: 500px;
+    display: inline-block;
 }
